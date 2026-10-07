@@ -9,7 +9,6 @@
     scroll-behavior: smooth;
   }
 
-  /* Respect reduced-motion preference */
   @media (prefers-reduced-motion: reduce) {
     html {
       scroll-behavior: auto;
@@ -29,16 +28,15 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-  /* Keyboard focus visible globally */
   :focus-visible {
     outline: 2px solid #059669;
     outline-offset: 2px;
   }
 
-  /* Remove default summary marker in browsers */
   summary {
     list-style: none;
   }
+
   summary::-webkit-details-marker {
     display: none;
   }
@@ -48,8 +46,13 @@
   .animate-bounce-slow {
     animation: bounce-slow 2s infinite;
   }
+
   @keyframes bounce-slow {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-6px); }
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-6px);
+    }
   }
 }
