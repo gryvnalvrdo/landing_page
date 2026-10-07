@@ -3,7 +3,7 @@ export const SITE = {
   brandFull: "Ritelindo Akselera Kolaborasi",
   tagline: "Pabrik Rak Minimarket & Paket Setup Toko Retail",
   waNumber: process.env.NEXT_PUBLIC_WA_NUMBER ?? "6281258576431",
-  baseUrl: process.env.NEXT_PUBLIC_BASE_URL ?? "https://ritelindo.vercel.app",
+  baseUrl: process.env.NEXT_PUBLIC_BASE_URL ?? "https://landing-page-hantic.vercel.app",
   logoText: "Ritelindo",
   phone: "+62 812-5857-6431",
   email: "info@ritelindo.co.id",
